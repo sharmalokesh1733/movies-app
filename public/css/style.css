@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#con {
+    max-width: 30%;
+    margin-top: 20px;
+}
+
+#main-div {
+    padding: 10px 10px 10px 20px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: rgb(188, 233, 240);
+}
+
+#main-div p {
+    font-weight: bold;
+}
+
+main {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 40px;
+}
